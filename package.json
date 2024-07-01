@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "json": "^11.0.0",
+    "server": "^1.0.39"
+  },
+  "name": "alura-geek-g6",
+  "version": "1.0.0",
+  "description": "Proyecto de pagina venta productos",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Munoz Fuentealba",
+  "license": "ISC"
+}

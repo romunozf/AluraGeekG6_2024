@@ -1,0 +1,229 @@
+body{
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#07014a;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #09003d;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0 0 30px rgb(245, 247, 249);
+    box-shadow: 1px 1px 3px 3px rgb(2, 130, 251);
+    font-weight: bold;
+    border: solid 1px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.catalog-img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+h1{
+    font-size: 30px;
+    color: #f9f9f9;
+    padding: 10px 10px 30px 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 30px rgb(245, 247, 249);
+}
+
+p{
+    margin: 5px;
+}
+
+.mis-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productosItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: radial-gradient(#e6e6e6e2, #6e6e6e) ;
+    height: auto;
+    width: 160px;
+    padding: 5px;
+    border: solid 2px;
+    border-color: #03c0f9;
+    box-shadow: 1px 1px 3px 3px rgb(2, 130, 251);
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+}
+
+.productosItem:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.precio-botton{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+}
+
+
+.imagen-producto{
+    width: 150px;   
+    height: 150px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #fdffff;
+    margin: 5px;
+}
+
+.img-borrar{
+    width: 15px;
+    height: 15px;
+    margin: 6px 5px;
+}
+.boton-borrar:hover{
+    transform: scale(2.1);
+}
+
+.agregar-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(#0303cb, #010158) ;
+    border: solid 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(2, 130, 251);
+    padding: 10px;
+    height: 280px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario-agregar-productos{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 300px;
+    padding: 5px;
+}
+
+input{
+    border: solid 2px;
+    border-color: #fefefe;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+
+.boton-enviar{
+    width: 70px;
+    height: 30px;
+    background-color: #012946;
+    border: solid 2px;
+    border-color: #000000;
+    border-radius: 20px;
+    padding: 5px 0px;
+    font-weight: bold;
+    color: #f9f9f9;
+    box-shadow: 1px 1px 3px 3px rgb(2, 130, 251);
+}
+
+.boton-enviar:hover{
+    border-color: #fbd2b2;
+    background-color: #ffffff;
+    color: #10024f;
+    font-weight: bolder;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px 3px rgb(230, 103, 247);
+}
+
+.boton-limpiar{
+    width: 70px;
+    height: 30px;
+    border: solid 2px;
+    border-color: #7ec0ee;
+    border-radius: 20px;
+    padding: 5px 0px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 3px rgb(2, 130, 251);
+}
+
+.boton-limpiar:hover{
+    background-color: #012946;
+    border-color: #f56c03;
+    color: #ffffff;
+    font-weight: bolder;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px 3px rgb(230, 103, 247);
+}
+
+footer{
+    background: radial-gradient(#e6e6e6e2, #6e6e6e) ;
+    font-size: 10px;
+    font-weight: bold;
+    border: solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer-h2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 2px;
+}
+
+.catalog-img-footer{
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+.text-footer{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+/*Mobile*/
+@media (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2px;
+    }
+
+}
